@@ -1,0 +1,91 @@
+body {
+    background-color: #f3dccd;
+
+
+}
+
+header {
+    background-color: #083f58c7;
+    position: fixed;
+    /* Fixa o cabeçalho no topo */
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* Cabeçalho ocupa toda a largura */
+    height: 75px;
+    /* Altura do cabeçalho */
+    z-index: 1000;
+    /* Garante que o cabeçalho fique acima de outros elementos */
+    display: flex;
+    /* Flexbox para centralizar a barra de pesquisa no header */
+    align-items: flex-end;
+    /* Alinha a barra de pesquisa ao fundo do cabeçalho */
+}
+
+
+
+.btn-group {
+    position: absolute;
+    /* Torna o posicionamento da barra de pesquisa absoluto */
+    bottom: 15px;
+    /* Distância do fundo do cabeçalho */
+    display: flex;
+    gap: 10px;
+    left: 1100px;
+
+}
+
+.img {
+    background-image: url("copia.jpg");
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-attachment: fixed;
+
+}
+
+.foto {
+    position: relative;
+    width: 1300px;
+    max-width: 1700px;
+    margin: auto;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px #03141d;
+
+}
+
+.letra {
+    font-size: 70px;
+    color: #e26f28;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.texto {
+    text-align: center;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #032433;
+    line-height: 60px;
+
+}
+
+.destaque{
+    font-size: 70px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 90px;
+    color: #e26f28;
+    line-height: 60px;
+}
+
+footer {
+    background-image: url("novo\ rodapé.png");
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-attachment: fixed;
+}
