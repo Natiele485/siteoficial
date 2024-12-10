@@ -60,304 +60,308 @@
         }
 
         /* Estilo para o link com borda */
-.link-com-borda {
-    border: 2px solid #e67e22;
-    padding: 10px 20px;
-    text-decoration: none;
-    color: white;
-    display: inline-block;
-    border-radius: 5px; /* Opcional, para bordas arredondadas */
-}
+        .link-com-borda {
+            border: 2px solid #e67e22;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: white;
+            display: inline-block;
+            border-radius: 5px;
+            /* Opcional, para bordas arredondadas */
+            height: 20px;
+        }
 
-.link-com-borda:hover {
-    background-color: #e67e22; /* Cor de fundo quando o link for hover */
-    color: white;
-}
-
+        .link-com-borda:hover {
+            background-color: #e67e22;
+            /* Cor de fundo quando o link for hover */
+            color: white;
+        }
     </style>
 
 </head>
 
 <body>
-    
 
 
-<header>
-    <div class="logo">
-        <img src="20 Sem Título_20241124182638.png" width="300" height="75">
+
+    <header>
+        <div class="logo">
+            <img src="20 Sem Título_20241124182638.png" width="300" height="75">
+        </div>
+
+        <div class="btn-group me-2">
+            <!-- Link com borda, sem ser um botão -->
+            <a href="index.html" class="btn btn-danger"
+                style="border: 2px solid #e67e22; padding: 10px 20px; display: inline-block; text-decoration: none; color: white;">
+                Início
+            </a>
+        </div>
+
+
+        <div class="btn-group me-2 ">
+            <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Tipo do Imóvel
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="terceirapagina.html">Apartamento</a></li>
+                <li><a class="dropdown-item" href="terceirapagina.html">Casa</a></li>
+                <li><a class="dropdown-item" href="terceirapagina.html">Terreno</a></li>
+        </div>
+
+        <div class="btn-group me-2">
+            <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Central de <strong>Atendimento</strong>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#"></a></li>
+                <li><a class="dropdown-item" href="#">Telefone<br>(48) 99668-0131</a></li>
+                <li><a class="dropdown-item" href="#">Gmail<br>rstbsilveira@hotmail.com</a></li>
+                <li><a class="dropdown-item" href="#">Instagram<br>@ricardoimoveis</a></li>
+                <li><a class="dropdown-item" href="#">Facebook<br>Ricardo Silveira - Corretor de Imóveis</a></li>
+
+
+            </ul>
+
+        </div>
+
+
+    </header>
+
+
+    <img class="img" src="copia.jpg" width="1910">
+
+    <br><br><br><br>
+    <div class="texto">
+        <p>
+            Imovéis <span class="letra">Disponíveis</span>
+        </p>
     </div>
 
-    <div class="btn-group me-2">
-        <!-- Link com borda, sem ser um botão -->
-        <a href="index.html" class="btn btn-danger" style="border: 2px solid #dc3545; padding: 10px 20px; display: inline-block; text-decoration: none; color: white;">
-            Início
-        </a>
-    </div>
-    
-
-    <div class="btn-group me-2 ">
-        <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown"
-            aria-expanded="false">
-            Tipo do Imóvel
-        </button>
-        <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="terceirapagina.html">Apartamento</a></li>
-            <li><a class="dropdown-item" href="terceirapagina.html">Casa</a></li>
-            <li><a class="dropdown-item" href="terceirapagina.html">Terreno</a></li>
-    </div>
-
-    <div class="btn-group me-2">
-        <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown"
-            aria-expanded="false">
-            Central de <strong>Atendimento</strong>
-        </button>
-        <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#"></a></li>
-            <li><a class="dropdown-item" href="#">Telefone<br>(48) 99668-0131</a></li>
-            <li><a class="dropdown-item" href="#">Gmail<br>rstbsilveira@hotmail.com</a></li>
-            <li><a class="dropdown-item" href="#">Instagram<br>@ricardoimoveis</a></li>
-            <li><a class="dropdown-item" href="#">Facebook<br>Ricardo Silveira - Corretor de Imóveis</a></li>
+    <br><br><br>
 
 
-        </ul>
-
-    </div>
-
-
-</header>
-
-
-<img class="img" src="copia.jpg" width="1910">
-
-<br><br><br><br>
-<div class="texto">
-    <p>
-        Imovéis <span class="letra">Disponíveis</span> 
-    </p>
-</div>
-
-<br><br><br>
-
-
-<br><br><br><br><br>
+    <br><br><br><br><br>
 
     <p class="destaque">
-     <h1>Apartamentos</h1>
+    <h1>Apartamentos</h1>
     </p>
 
 
-<br><br><br><br>
+    <br><br><br><br>
 
-<div id="productCarousel" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
+    <div id="productCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
 
-        <!-- Item 1 -->
-        <div class="carousel-item active">
-            <div class="row g-3 justify-content-center">
-                <!-- Card 1 -->
-                <div class="col-12 col-md-4 col-lg-3">
-                    <div class="card">
-                        <img src="foto 1.jpg" class="card-img-top" alt="Imagem de Praia Sul/Itapiruba">
-                        <div class="card-body">
-                            <h5 class="card-title">Praia Sul/Itapiruba</h5>
-                            <p class="card-text">Imóvel à Beira Mar, localizado na Praia Sul em Itapiruba.</p>
-                            <a href="https://matteoni.com.br/?gad_source=1&gclid=EAIaIQobChMIqcON24iAigMVel5IAB026wDtEAAYAyAAEgJgWPD_BwE"
-                                class="btn btn-primary">Visitar</a>
+            <!-- Item 1 -->
+            <div class="carousel-item active">
+                <div class="row g-3 justify-content-center">
+                    <!-- Card 1 -->
+                    <div class="col-12 col-md-4 col-lg-3">
+                        <div class="card">
+                            <img src="foto 1.jpg" class="card-img-top" alt="Imagem de Praia Sul/Itapiruba">
+                            <div class="card-body">
+                                <h5 class="card-title">Praia Sul/Itapiruba</h5>
+                                <p class="card-text">Imóvel à Beira Mar, localizado na Praia Sul em Itapiruba.</p>
+                                <a href="https://matteoni.com.br/?gad_source=1&gclid=EAIaIQobChMIqcON24iAigMVel5IAB026wDtEAAYAyAAEgJgWPD_BwE"
+                                    class="btn btn-primary">Visitar</a>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <!-- Card 2 -->
-                <div class="col-12 col-md-4 col-lg-3">
-                    <div class="card">
-                        <img src="foto 2.jpg" class="card-img-top" alt="Imagem de Praia Norte/Itapiruba">
-                        <div class="card-body">
-                            <h5 class="card-title">Praia Norte/Itapiruba</h5>
-                            <p class="card-text">Imóvel com vista panorâmica para o mar, localizado na Praia Norte
-                                em Itapiruba.</p>
-                            <a href="https://matteoni.com.br/?gad_source=1&gclid=EAIaIQobChMIqcON24iAigMVel5IAB026wDtEAAYAyAAEgJgWPD_BwE"
-                                class="btn btn-primary">Visitar</a>
+                    <!-- Card 2 -->
+                    <div class="col-12 col-md-4 col-lg-3">
+                        <div class="card">
+                            <img src="foto 2.jpg" class="card-img-top" alt="Imagem de Praia Norte/Itapiruba">
+                            <div class="card-body">
+                                <h5 class="card-title">Praia Norte/Itapiruba</h5>
+                                <p class="card-text">Imóvel com vista panorâmica para o mar, localizado na Praia Norte
+                                    em Itapiruba.</p>
+                                <a href="https://matteoni.com.br/?gad_source=1&gclid=EAIaIQobChMIqcON24iAigMVel5IAB026wDtEAAYAyAAEgJgWPD_BwE"
+                                    class="btn btn-primary">Visitar</a>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <!-- Card 3 -->
-                <div class="col-12 col-md-4 col-lg-3">
-                    <div class="card">
-                        <img src="foto 3.jpg" class="card-img-top" alt="Imagem de Praia Central/Itapiruba">
-                        <div class="card-body">
-                            <h5 class="card-title">Praia Central/Itapiruba</h5>
-                            <p class="card-text">Imóvel com excelente localização e fácil acesso à praia central de
-                                Itapiruba.</p>
-                            <a href="https://matteoni.com.br/?gad_source=1&gclid=EAIaIQobChMIqcON24iAigMVel5IAB026wDtEAAYAyAAEgJgWPD_BwE"
-                                class="btn btn-primary">Visitar</a>
+                    <!-- Card 3 -->
+                    <div class="col-12 col-md-4 col-lg-3">
+                        <div class="card">
+                            <img src="foto 3.jpg" class="card-img-top" alt="Imagem de Praia Central/Itapiruba">
+                            <div class="card-body">
+                                <h5 class="card-title">Praia Central/Itapiruba</h5>
+                                <p class="card-text">Imóvel com excelente localização e fácil acesso à praia central de
+                                    Itapiruba.</p>
+                                <a href="https://matteoni.com.br/?gad_source=1&gclid=EAIaIQobChMIqcON24iAigMVel5IAB026wDtEAAYAyAAEgJgWPD_BwE"
+                                    class="btn btn-primary">Visitar</a>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-            </div>
-        </div>
-
-        <!-- Item 2 -->
-        <div class="carousel-item">
-            <div class="row g-3 justify-content-center">
-                <!-- Card 4 -->
-                <div class="col-12 col-md-4 col-lg-3">
-                    <div class="card">
-                        <img src="foto 4.jpg" class="card-img-top" alt="Imagem de Praia das Palmeiras">
-                        <div class="card-body">
-                            <h5 class="card-title">Praia das Palmeiras</h5>
-                            <p class="card-text">Imóvel em localização privilegiada, com acesso direto à praia.</p>
-                            <a href="https://matteoni.com.br/?gad_source=1&gclid=EAIaIQobChMIqcON24iAigMVel5IAB026wDtEAAYAyAAEgJgWPD_BwE"
-                                class="btn btn-primary">Visitar</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Card 5 -->
-                <div class="col-12 col-md-4 col-lg-3">
-                    <div class="card">
-                        <img src="foto 5.jpeg" class="card-img-top" alt="Imagem de Praia da Barra">
-                        <div class="card-body">
-                            <h5 class="card-title">Praia da Barra</h5>
-                            <p class="card-text">Imóvel com vista deslumbrante e a poucos passos da água.</p>
-                            <a href="https://matteoni.com.br/?gad_source=1&gclid=EAIaIQobChMIqcON24iAigMVel5IAB026wDtEAAYAyAAEgJgWPD_BwE"
-                                class="btn btn-primary">Visitar</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Card 6 -->
-                <div class="col-12 col-md-4 col-lg-3">
-                    <div class="card">
-                        <img src="destaque 06.jpg" class="card-img-top" alt="Imagem de Praia do Sol">
-                        <div class="card-body">
-                            <h5 class="card-title">Praia do Sol</h5>
-                            <p class="card-text">Imóvel com piscina e área de lazer completa, ideal para férias.</p>
-                            <a href="https://matteoni.com.br/?gad_source=1&gclid=EAIaIQobChMIqcON24iAigMVel5IAB026wDtEAAYAyAAEgJgWPD_BwE"
-                                class="btn btn-primary">Visitar</a>
-                        </div>
-                    </div>
                 </div>
             </div>
+
+            <!-- Item 2 -->
+            <div class="carousel-item">
+                <div class="row g-3 justify-content-center">
+                    <!-- Card 4 -->
+                    <div class="col-12 col-md-4 col-lg-3">
+                        <div class="card">
+                            <img src="foto 4.jpg" class="card-img-top" alt="Imagem de Praia das Palmeiras">
+                            <div class="card-body">
+                                <h5 class="card-title">Praia das Palmeiras</h5>
+                                <p class="card-text">Imóvel em localização privilegiada, com acesso direto à praia.</p>
+                                <a href="https://matteoni.com.br/?gad_source=1&gclid=EAIaIQobChMIqcON24iAigMVel5IAB026wDtEAAYAyAAEgJgWPD_BwE"
+                                    class="btn btn-primary">Visitar</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 5 -->
+                    <div class="col-12 col-md-4 col-lg-3">
+                        <div class="card">
+                            <img src="foto 5.jpeg" class="card-img-top" alt="Imagem de Praia da Barra">
+                            <div class="card-body">
+                                <h5 class="card-title">Praia da Barra</h5>
+                                <p class="card-text">Imóvel com vista deslumbrante e a poucos passos da água.</p>
+                                <a href="https://matteoni.com.br/?gad_source=1&gclid=EAIaIQobChMIqcON24iAigMVel5IAB026wDtEAAYAyAAEgJgWPD_BwE"
+                                    class="btn btn-primary">Visitar</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 6 -->
+                    <div class="col-12 col-md-4 col-lg-3">
+                        <div class="card">
+                            <img src="destaque 06.jpg" class="card-img-top" alt="Imagem de Praia do Sol">
+                            <div class="card-body">
+                                <h5 class="card-title">Praia do Sol</h5>
+                                <p class="card-text">Imóvel com piscina e área de lazer completa, ideal para férias.</p>
+                                <a href="https://matteoni.com.br/?gad_source=1&gclid=EAIaIQobChMIqcON24iAigMVel5IAB026wDtEAAYAyAAEgJgWPD_BwE"
+                                    class="btn btn-primary">Visitar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
 
+        <!-- Controles do Carrossel -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#productCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
     </div>
 
-    <!-- Controles do Carrossel -->
-    <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#productCarousel" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-    </button>
-</div>
+    <br><br><br>
 
-<br><br><br>
-
-<p class="destaque">
+    <p class="destaque">
     <h1>Casas</h1>
-   </p>
+    </p>
 
-   <div id="anotherCarousel" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
+    <div id="anotherCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
 
-        <!-- Item 1 -->
-        <div class="carousel-item active">
-            <div class="row g-3 justify-content-center">
-                <!-- Card 1 -->
-                <div class="col-12 col-md-4 col-lg-3">
-                    <div class="card">
-                        <img src="fotoA1.jpg" class="card-img-top" alt="Imagem de Praia Azul">
-                        <div class="card-body">
-                            <h5 class="card-title">Praia Azul</h5>
-                            <p class="card-text">Imóvel à beira-mar com vista incrível e ambientes modernos.</p>
-                            <a href="https://matteoni.com.br/" class="btn btn-primary">Visitar</a>
+            <!-- Item 1 -->
+            <div class="carousel-item active">
+                <div class="row g-3 justify-content-center">
+                    <!-- Card 1 -->
+                    <div class="col-12 col-md-4 col-lg-3">
+                        <div class="card">
+                            <img src="fotoA1.jpg" class="card-img-top" alt="Imagem de Praia Azul">
+                            <div class="card-body">
+                                <h5 class="card-title">Praia Azul</h5>
+                                <p class="card-text">Imóvel à beira-mar com vista incrível e ambientes modernos.</p>
+                                <a href="https://matteoni.com.br/" class="btn btn-primary">Visitar</a>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <!-- Card 2 -->
-                <div class="col-12 col-md-4 col-lg-3">
-                    <div class="card">
-                        <img src="fotoA2.jpg" class="card-img-top" alt="Imagem de Praia Verde">
-                        <div class="card-body">
-                            <h5 class="card-title">Praia Verde</h5>
-                            <p class="card-text">Imóvel com jardim privativo e acesso exclusivo à praia.</p>
-                            <a href="https://matteoni.com.br/" class="btn btn-primary">Visitar</a>
+                    <!-- Card 2 -->
+                    <div class="col-12 col-md-4 col-lg-3">
+                        <div class="card">
+                            <img src="fotoA2.jpg" class="card-img-top" alt="Imagem de Praia Verde">
+                            <div class="card-body">
+                                <h5 class="card-title">Praia Verde</h5>
+                                <p class="card-text">Imóvel com jardim privativo e acesso exclusivo à praia.</p>
+                                <a href="https://matteoni.com.br/" class="btn btn-primary">Visitar</a>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <!-- Card 3 -->
-                <div class="col-12 col-md-4 col-lg-3">
-                    <div class="card">
-                        <img src="fotoA3.jpg" class="card-img-top" alt="Imagem de Praia dos Pescadores">
-                        <div class="card-body">
-                            <h5 class="card-title">Praia dos Pescadores</h5>
-                            <p class="card-text">Imóvel com charme rústico e localização estratégica.</p>
-                            <a href="https://matteoni.com.br/" class="btn btn-primary">Visitar</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Item 2 -->
-        <div class="carousel-item">
-            <div class="row g-3 justify-content-center">
-                <!-- Card 4 -->
-                <div class="col-12 col-md-4 col-lg-3">
-                    <div class="card">
-                        <img src="fotoA4.jpg" class="card-img-top" alt="Imagem de Praia do Farol">
-                        <div class="card-body">
-                            <h5 class="card-title">Praia do Farol</h5>
-                            <p class="card-text">Imóvel com localização icônica próximo ao farol histórico.</p>
-                            <a href="https://matteoni.com.br/" class="btn btn-primary">Visitar</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Card 5 -->
-                <div class="col-12 col-md-4 col-lg-3">
-                    <div class="card">
-                        <img src="fotoA5.jpg" class="card-img-top" alt="Imagem de Praia das Conchas">
-                        <div class="card-body">
-                            <h5 class="card-title">Praia das Conchas</h5>
-                            <p class="card-text">Imóvel elegante com piscina privativa e vista única.</p>
-                            <a href="https://matteoni.com.br/" class="btn btn-primary">Visitar</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Card 6 -->
-                <div class="col-12 col-md-4 col-lg-3">
-                    <div class="card">
-                        <img src="fotoA6.jpg" class="card-img-top" alt="Imagem de Praia do Sossego">
-                        <div class="card-body">
-                            <h5 class="card-title">Praia do Sossego</h5>
-                            <p class="card-text">Imóvel perfeito para quem busca tranquilidade e conforto.</p>
-                            <a href="https://matteoni.com.br/" class="btn btn-primary">Visitar</a>
+                    <!-- Card 3 -->
+                    <div class="col-12 col-md-4 col-lg-3">
+                        <div class="card">
+                            <img src="fotoA3.jpg" class="card-img-top" alt="Imagem de Praia dos Pescadores">
+                            <div class="card-body">
+                                <h5 class="card-title">Praia dos Pescadores</h5>
+                                <p class="card-text">Imóvel com charme rústico e localização estratégica.</p>
+                                <a href="https://matteoni.com.br/" class="btn btn-primary">Visitar</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+
+            <!-- Item 2 -->
+            <div class="carousel-item">
+                <div class="row g-3 justify-content-center">
+                    <!-- Card 4 -->
+                    <div class="col-12 col-md-4 col-lg-3">
+                        <div class="card">
+                            <img src="fotoA4.jpg" class="card-img-top" alt="Imagem de Praia do Farol">
+                            <div class="card-body">
+                                <h5 class="card-title">Praia do Farol</h5>
+                                <p class="card-text">Imóvel com localização icônica próximo ao farol histórico.</p>
+                                <a href="https://matteoni.com.br/" class="btn btn-primary">Visitar</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 5 -->
+                    <div class="col-12 col-md-4 col-lg-3">
+                        <div class="card">
+                            <img src="fotoA5.jpg" class="card-img-top" alt="Imagem de Praia das Conchas">
+                            <div class="card-body">
+                                <h5 class="card-title">Praia das Conchas</h5>
+                                <p class="card-text">Imóvel elegante com piscina privativa e vista única.</p>
+                                <a href="https://matteoni.com.br/" class="btn btn-primary">Visitar</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 6 -->
+                    <div class="col-12 col-md-4 col-lg-3">
+                        <div class="card">
+                            <img src="fotoA6.jpg" class="card-img-top" alt="Imagem de Praia do Sossego">
+                            <div class="card-body">
+                                <h5 class="card-title">Praia do Sossego</h5>
+                                <p class="card-text">Imóvel perfeito para quem busca tranquilidade e conforto.</p>
+                                <a href="https://matteoni.com.br/" class="btn btn-primary">Visitar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
 
+        <!-- Controles do Carrossel -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#anotherCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#anotherCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
     </div>
 
-    <!-- Controles do Carrossel -->
-    <button class="carousel-control-prev" type="button" data-bs-target="#anotherCarousel" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#anotherCarousel" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-    </button>
-</div>
 
 
 
@@ -365,114 +369,110 @@
 
 
 
+    <br><br><br>
 
-   <br><br><br>
-
-   <p class="destaque">
+    <p class="destaque">
     <h1>Terrenos</h1>
-   </p>
+    </p>
 
 
-   <div id="newCarousel" class="carousel slide" data-bs-ride="carousel">
-       <div class="carousel-inner">
-   
-           <!-- Item 1 -->
-           <div class="carousel-item active">
-               <div class="row g-3 justify-content-center">
-                   <!-- Card 1 -->
-                   <div class="col-12 col-md-4 col-lg-3">
-                       <div class="card">
-                           <img src="fotoB1.jpg" class="card-img-top" alt="Imagem de Praia das Dunas">
-                           <div class="card-body">
-                               <h5 class="card-title">Praia das Dunas</h5>
-                               <p class="card-text">Imóvel charmoso com vista panorâmica para as dunas.</p>
-                               <a href="https://matteoni.com.br/" class="btn btn-primary">Visitar</a>
-                           </div>
-                       </div>
-                   </div>
-   
-                   <!-- Card 2 -->
-                   <div class="col-12 col-md-4 col-lg-3">
-                       <div class="card">
-                           <img src="fotoB2.jpg" class="card-img-top" alt="Imagem de Praia do Paraíso">
-                           <div class="card-body">
-                               <h5 class="card-title">Praia do Paraíso</h5>
-                               <p class="card-text">Imóvel exclusivo em localização paradisíaca.</p>
-                               <a href="https://matteoni.com.br/" class="btn btn-primary">Visitar</a>
-                           </div>
-                       </div>
-                   </div>
-   
-                   <!-- Card 3 -->
-                   <div class="col-12 col-md-4 col-lg-3">
-                       <div class="card">
-                           <img src="fotoB3.jpg" class="card-img-top" alt="Imagem de Praia do Recanto">
-                           <div class="card-body">
-                               <h5 class="card-title">Praia do Recanto</h5>
-                               <p class="card-text">Imóvel acolhedor, ideal para famílias e grupos.</p>
-                               <a href="https://matteoni.com.br/" class="btn btn-primary">Visitar</a>
-                           </div>
-                       </div>
-                   </div>
-               </div>
-           </div>
-   
-           <!-- Item 2 -->
-           <div class="carousel-item">
-               <div class="row g-3 justify-content-center">
-                   <!-- Card 4 -->
-                   <div class="col-12 col-md-4 col-lg-3">
-                       <div class="card">
-                           <img src="fotoB4.jpg" class="card-img-top" alt="Imagem de Praia do Horizonte">
-                           <div class="card-body">
-                               <h5 class="card-title">Praia do Horizonte</h5>
-                               <p class="card-text">Imóvel sofisticado com design moderno e amplo espaço.</p>
-                               <a href="https://matteoni.com.br/" class="btn btn-primary">Visitar</a>
-                           </div>
-                       </div>
-                   </div>
-   
-                   <!-- Card 5 -->
-                   <div class="col-12 col-md-4 col-lg-3">
-                       <div class="card">
-                           <img src="fotoB5.jpg" class="card-img-top" alt="Imagem de Praia do Luar">
-                           <div class="card-body">
-                               <h5 class="card-title">Praia do Luar</h5>
-                               <p class="card-text">Imóvel romântico perfeito para casais apaixonados.</p>
-                               <a href="https://matteoni.com.br/" class="btn btn-primary">Visitar</a>
-                           </div>
-                       </div>
-                   </div>
-   
-                   <!-- Card 6 -->
-                   <div class="col-12 col-md-4 col-lg-3">
-                       <div class="card">
-                           <img src="fotoB6.jpg" class="card-img-top" alt="Imagem de Praia do Encanto">
-                           <div class="card-body">
-                               <h5 class="card-title">Praia do Encanto</h5>
-                               <p class="card-text">Imóvel em um local mágico, cercado por natureza.</p>
-                               <a href="https://matteoni.com.br/" class="btn btn-primary">Visitar</a>
-                           </div>
-                       </div>
-                   </div>
-               </div>
-           </div>
-   
-       </div>
-   
-       <!-- Controles do Carrossel -->
-       <button class="carousel-control-prev" type="button" data-bs-target="#newCarousel" data-bs-slide="prev">
-           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-           <span class="visually-hidden">Previous</span>
-       </button>
-       <button class="carousel-control-next" type="button" data-bs-target="#newCarousel" data-bs-slide="next">
-           <span class="carousel-control-next-icon" aria-hidden="true"></span>
-           <span class="visually-hidden">Next</span>
-       </button>
-   </div>
-   
+    <div id="newCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
 
+            <!-- Item 1 -->
+            <div class="carousel-item active">
+                <div class="row g-3 justify-content-center">
+                    <!-- Card 1 -->
+                    <div class="col-12 col-md-4 col-lg-3">
+                        <div class="card">
+                            <img src="fotoB1.jpg" class="card-img-top" alt="Imagem de Praia das Dunas">
+                            <div class="card-body">
+                                <h5 class="card-title">Praia das Dunas</h5>
+                                <p class="card-text">Imóvel charmoso com vista panorâmica para as dunas.</p>
+                                <a href="https://matteoni.com.br/" class="btn btn-primary">Visitar</a>
+                            </div>
+                        </div>
+                    </div>
 
+                    <!-- Card 2 -->
+                    <div class="col-12 col-md-4 col-lg-3">
+                        <div class="card">
+                            <img src="fotoB2.jpg" class="card-img-top" alt="Imagem de Praia do Paraíso">
+                            <div class="card-body">
+                                <h5 class="card-title">Praia do Paraíso</h5>
+                                <p class="card-text">Imóvel exclusivo em localização paradisíaca.</p>
+                                <a href="https://matteoni.com.br/" class="btn btn-primary">Visitar</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="col-12 col-md-4 col-lg-3">
+                        <div class="card">
+                            <img src="fotoB3.jpg" class="card-img-top" alt="Imagem de Praia do Recanto">
+                            <div class="card-body">
+                                <h5 class="card-title">Praia do Recanto</h5>
+                                <p class="card-text">Imóvel acolhedor, ideal para famílias e grupos.</p>
+                                <a href="https://matteoni.com.br/" class="btn btn-primary">Visitar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item 2 -->
+            <div class="carousel-item">
+                <div class="row g-3 justify-content-center">
+                    <!-- Card 4 -->
+                    <div class="col-12 col-md-4 col-lg-3">
+                        <div class="card">
+                            <img src="fotoB4.jpg" class="card-img-top" alt="Imagem de Praia do Horizonte">
+                            <div class="card-body">
+                                <h5 class="card-title">Praia do Horizonte</h5>
+                                <p class="card-text">Imóvel sofisticado com design moderno e amplo espaço.</p>
+                                <a href="https://matteoni.com.br/" class="btn btn-primary">Visitar</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 5 -->
+                    <div class="col-12 col-md-4 col-lg-3">
+                        <div class="card">
+                            <img src="fotoB5.jpg" class="card-img-top" alt="Imagem de Praia do Luar">
+                            <div class="card-body">
+                                <h5 class="card-title">Praia do Luar</h5>
+                                <p class="card-text">Imóvel romântico perfeito para casais apaixonados.</p>
+                                <a href="https://matteoni.com.br/" class="btn btn-primary">Visitar</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 6 -->
+                    <div class="col-12 col-md-4 col-lg-3">
+                        <div class="card">
+                            <img src="fotoB6.jpg" class="card-img-top" alt="Imagem de Praia do Encanto">
+                            <div class="card-body">
+                                <h5 class="card-title">Praia do Encanto</h5>
+                                <p class="card-text">Imóvel em um local mágico, cercado por natureza.</p>
+                                <a href="https://matteoni.com.br/" class="btn btn-primary">Visitar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Controles do Carrossel -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#newCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#newCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
 
 
 
@@ -492,16 +492,19 @@
 
 
 
-   <br><br><br>
 
-<footer>
 
-    <img src="rodapé recortado.png" width="1910">
 
-</footer>
+    <br><br><br>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"></script>
+    <footer>
+
+        <img src="rodapé recortado.png" width="1910">
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 
 </body>
